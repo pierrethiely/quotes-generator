@@ -1,0 +1,94 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: rgb(216, 210, 210);
+    text-transform: uppercase;
+    margin-top: 3em;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h4 {
+    cursor: pointer;
+    padding: 2px 4px 2px 4px;
+    border: 1px black solid;
+    margin-top: 1.2em;
+    background-color: white;
+    box-shadow:  1px 2px 2px 1px;
+}
+
+h4:active {
+    box-shadow: none;
+}
+
+hr {
+    border-bottom: 3px grey solid;
+    margin-top: 2em;
+}
+
+blockquote {
+    background-color: white;
+}
+
+#content, #contenu {
+    display: none;
+}
+
+#endProgram {
+    margin-top: 1em;
+}
+
+option, select, button {
+    color: white;
+    background-color: rgb(206, 52, 52);
+    padding: 0.5em;
+    font-weight: 700;
+    border: 2px white solid;
+    cursor: pointer;
+    width: 80%;
+    height: 45px;
+}
+
+button[type="submit"]:active {
+    color: rgb(206, 52, 52);
+    background-color: white;
+    border: 2px rgb(206, 52, 52) solid;
+}
+
+button:hover {
+    width: 85%;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + label:before {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 17px;
+    height: 17px;
+}
+
+input[type=radio]:checked + label:before {
+    background: rgb(206, 52, 52);
+    border-color: rgb(206, 52, 52);
+    box-shadow: inset 0px 0px 0px 2px #fff;
+}
+
+label {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+blockquote {
+    padding: 10px 0 10px 20px;
+    margin-top: 18px;
+}
